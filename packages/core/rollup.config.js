@@ -67,8 +67,9 @@ const buildStep = [
     input,
     output: [
       {
-        file: pkg.main,
-        format: "cjs",
+        name: "Vivliostyle",
+        file: pkg.browser,
+        format: "umd",
         sourcemap: true,
         banner,
       },
@@ -95,9 +96,8 @@ if (!isDevelopment) {
           banner,
         },
         {
-          name: "Vivliostyle",
-          file: pkg.browser,
-          format: "umd",
+          file: pkg.main,
+          format: "cjs",
           sourcemap: true,
           banner,
         },
