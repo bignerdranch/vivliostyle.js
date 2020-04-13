@@ -19,7 +19,11 @@
  * along with Vivliostyle UI.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import { CoreViewer, ReadyState, PageProgression } from "@vivliostyle/core";
+import {
+  CoreViewer,
+  ReadyState,
+  PageProgression,
+} from "@bignerdranch/vivliostyle-core";
 import ko, { PureComputed } from "knockout";
 
 import ViewerOptions from "../models/viewer-options";

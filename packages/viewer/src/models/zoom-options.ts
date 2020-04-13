@@ -17,7 +17,7 @@
  * along with Vivliostyle UI.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import { CoreViewer, ZoomType } from "@vivliostyle/core";
+import { CoreViewer, ZoomType } from "@bignerdranch/vivliostyle-core";
 
 class ZoomOptions {
   zoom: number;

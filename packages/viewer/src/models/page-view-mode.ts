@@ -17,7 +17,7 @@
  * along with Vivliostyle UI.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import { PageViewMode as CorePageViewMode } from "@vivliostyle/core";
+import { PageViewMode as CorePageViewMode } from "@bignerdranch/vivliostyle-core";
 
 export class PageViewModeInstance {
   toSpreadViewString(): string {

@@ -24,7 +24,7 @@ import {
   ReadyState,
   PageProgression,
   profiler,
-} from "@vivliostyle/core";
+} from "@bignerdranch/vivliostyle-core";
 import ko, { Observable, PureComputed } from "knockout";
 
 import DocumentOptions from "../models/document-options";

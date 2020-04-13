@@ -21,7 +21,7 @@
 import {
   CoreViewerOptions,
   PageViewMode as CorePageViewMode,
-} from "@vivliostyle/core";
+} from "@bignerdranch/vivliostyle-core";
 import ko, { Observable } from "knockout";
 
 import urlParameters from "../stores/url-parameters";
