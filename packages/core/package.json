@@ -1,7 +1,7 @@
 {
-  "name": "@vivliostyle/core",
+  "name": "@bignerdranch/vivliostyle-core",
   "description": "Vivliostyle Core library for HTML+CSS typesetting with EPUB/Web publications support",
-  "version": "2.0.0",
+  "version": "2.1.0-pre.1",
   "author": "Vivliostyle Foundation",
   "scripts": {
     "build": "NODE_ENV=production rollup -c",
@@ -63,11 +63,13 @@
     "resources"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vivliostyle/vivliostyle.js.git"
+    "url": "https://github.com/bignerdranch/vivliostyle.js.git",
+    "directory": "packages/core"
   },
   "license": "AGPL-3.0",
   "bugs": {
