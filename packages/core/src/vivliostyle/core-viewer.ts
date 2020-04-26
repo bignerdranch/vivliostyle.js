@@ -435,6 +435,13 @@ export class CoreViewer {
   getMetadata(): Epub.Meta {
     return this.adaptViewer_.opf.getMetadata();
   }
+
+  /**
+   * Returns the cover for an EPUB publication, if specified.
+   */
+  getCover(): Epub.OPFItem | null {
+    return this.adaptViewer_.opf.cover;
+  }
 }
 
 function convertSingleDocumentOptions(
